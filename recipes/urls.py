@@ -1,11 +1,11 @@
 from django.urls import path
 
-from recipes.views import home
-
 from . import views  # O ponto é para falar que está na mesma pasta
 
+app_name = 'recipes'
+
 urlpatterns = [
-    path('', home),
-    path('', views.home),
-    path('recipes/<int:id>/', views.recipe),
+
+    path('', views.home, name="home"),
+    path('recipes/<int:id>/', views.recipe, name="recipe"),
 ]
