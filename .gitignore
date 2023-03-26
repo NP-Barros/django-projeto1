@@ -81,7 +81,7 @@ celerybeat-schedule.*
 env/
 venv/ 
 ENV/
-env.bak/
+env.bak/ 
 venv.bak/
  
 # mkdocs documentation
