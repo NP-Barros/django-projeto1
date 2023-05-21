@@ -5,7 +5,7 @@ Uma plataforma simples voltada para idosos que desejam compartilhar suas receita
 O objetivo desta plataforma é fornecer um espaço para que idosos possam compartilhar suas receitas e conhecimentos culinários com outras pessoas. Além disso, a plataforma também tem como objetivo ajudar aqueles que desejam aprender novas receitas e experimentar novos sabores. A plataforma também busca promover a inclusão digital de idosos, oferecendo uma interface amigável e fácil de usar.
 
 ## 📋 Funcionalidades
-1. Inserir usuário :man_tipping_hand:
+1. Inserir usuário :raising_hand_woman:
 2. Excluir conta :wastebasket:
 3. Inserir receitas (com opção de não publicá-las):pencil:
 4. Publicar receitas inseridas :rocket:
