@@ -5,20 +5,26 @@ Uma plataforma simples voltada para idosos que desejam compartilhar suas receita
 O objetivo desta plataforma é fornecer um espaço para que idosos possam compartilhar suas receitas e conhecimentos culinários com outras pessoas. Além disso, a plataforma também tem como objetivo ajudar aqueles que desejam aprender novas receitas e experimentar novos sabores. A plataforma também busca promover a inclusão digital de idosos, oferecendo uma interface amigável e fácil de usar.
 
 
+
+<div valign="top"><br>
+  <img align="center" alt="React Native" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
+  <img align="center" alt="nodejs" height="30" width="40" src="https://cdn.worldvectorlogo.com/logos/nodejs-icon.svg">
+
+  <img align="center" alt="linux" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg">
+</div><br>
+
 ## 💻 Tecnologias Utilizadas
 
 
-Python 
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
+**Python<img align="center" alt="Python" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" /
+Django <img align="center" alt="HTML" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" /> 
+MySQL <img align="center" alt="HTML" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" />
+HTML <img align="center" alt="HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
+CSS <img align="center" alt="CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
+JavaScript <img align="center" alt="Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
+Git <img align="center" alt="git" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg">
+GitHub <img align="center" alt="github" height="35" width="35" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg" />**
           
-
-          
-
-Django  :spider_web:
-MySQL   :floppy_disk:
-HTML    :page_facing_up: 
-CSS     :art: 
-JavaScript :key: 
 
 ## 📋 Funcionalidades
 1. Inserir usuário :raising_hand_woman:
