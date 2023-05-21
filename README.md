@@ -7,11 +7,6 @@ O objetivo desta plataforma é fornecer um espaço para que idosos possam compar
 
 
 <div valign="top"><br>
-  <img align="center" alt="React Native" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
-  <img align="center" alt="nodejs" height="30" width="40" src="https://cdn.worldvectorlogo.com/logos/nodejs-icon.svg">
-
-  <img align="center" alt="linux" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg">
-</div><br>
 
 ## 💻 Tecnologias Utilizadas
 
