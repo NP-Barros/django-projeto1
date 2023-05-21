@@ -4,6 +4,22 @@ Uma plataforma simples voltada para idosos que desejam compartilhar suas receita
 ## 🎯 Objetivo
 O objetivo desta plataforma é fornecer um espaço para que idosos possam compartilhar suas receitas e conhecimentos culinários com outras pessoas. Além disso, a plataforma também tem como objetivo ajudar aqueles que desejam aprender novas receitas e experimentar novos sabores. A plataforma também busca promover a inclusão digital de idosos, oferecendo uma interface amigável e fácil de usar.
 
+
+## 💻 Tecnologias Utilizadas
+
+
+Python 
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
+          
+
+          
+
+Django  :spider_web:
+MySQL   :floppy_disk:
+HTML    :page_facing_up: 
+CSS     :art: 
+JavaScript :key: 
+
 ## 📋 Funcionalidades
 1. Inserir usuário :raising_hand_woman:
 2. Excluir conta :wastebasket:
