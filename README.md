@@ -1,5 +1,6 @@
 # 🍲 Sabores da Terceira Idade
-Uma plataforma simples voltada para idosos que desejam compartilhar suas receitas.
+
+Descubra os segredos culinários guardados a sete chaves pelos nossos avós com a plataforma Sabores da Terceira Idade. Compartilhe suas receitas favoritas e experimente novos sabores em um ambiente amigável e fácil de usar. Conecte-se com outros amantes da culinária caseira e explore um mundo de possibilidades culinárias. Junte-se à nossa comunidade e ajude a promover a inclusão digital de idosos. Venha cozinhar conosco!
 
 ## 🎯 Objetivo
 O objetivo desta plataforma é fornecer um espaço para que idosos possam compartilhar suas receitas e conhecimentos culinários com outras pessoas. Além disso, a plataforma também tem como objetivo ajudar aqueles que desejam aprender novas receitas e experimentar novos sabores. A plataforma também busca promover a inclusão digital de idosos, oferecendo uma interface amigável e fácil de usar.
