@@ -22,7 +22,9 @@ def make_chrome_browser(*options):
 
 
 if __name__ == "__main__":
-    browser = make_chrome_browser("--headless")
+    browser = (
+        make_chrome_browser()
+    )  # browser = make_chrome_browser("--headless") passar o parametro --headless quando não quero ver nda o chrmoe fica em sugundo plano
     browser.get("http://www.udemy.com/")
     sleep(5)
     browser.quit()
