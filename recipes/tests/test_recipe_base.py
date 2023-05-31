@@ -3,20 +3,17 @@ from django.test import TestCase
 from recipes.models import Category, Recipe, User
 
 
-class RecipeTestBase(TestCase):
-    def setUp(self) -> None:
-        return super().setUp()
-
-    def make_category(self, name='Category'):
+class RecipeMixin:
+    def make_category(self, name="Category"):
         return Category.objects.create(name=name)
 
     def make_author(
         self,
-        first_name='user',
-        last_name='name',
-        username='username',
-        password='123456',
-        email='username@email.com',
+        first_name="user",
+        last_name="name",
+        username="username",
+        password="123456",
+        email="username@email.com",
     ):
         return User.objects.create_user(
             first_name=first_name,
@@ -30,14 +27,14 @@ class RecipeTestBase(TestCase):
         self,
         category_data=None,
         author_data=None,
-        title='Recipe Title',
-        description='Recipe Description',
-        slug='recipe-slug',
+        title="Recipe Title",
+        description="Recipe Description",
+        slug="recipe-slug",
         preparation_time=10,
-        preparation_time_unit='Minutos',
+        preparation_time_unit="Minutos",
         servings=5,
-        servings_unit='Porções',
-        preparation_steps='Recipe Preparation Steps',
+        servings_unit="Porções",
+        preparation_steps="Recipe Preparation Steps",
         preparation_steps_is_html=False,
         is_published=True,
     ):
@@ -61,3 +58,8 @@ class RecipeTestBase(TestCase):
             preparation_steps_is_html=preparation_steps_is_html,
             is_published=is_published,
         )
+
+
+class RecipeTestBase(TestCase, RecipeMixin):
+    def setUp(self) -> None:
+        return super().setUp()
