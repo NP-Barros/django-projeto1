@@ -1,5 +1,7 @@
 {% extends 'global/base.html' %}
+
 {% block title %}Dashboard ({{ user }}) | {% endblock title %}
+
 {% block content %}
   <div class="main-content center container">
     <h2>Dashboard ({{ user }})</h2>
@@ -11,7 +13,7 @@
       <ul>
         {% for recipe in recipes %}
           <li>
-            <a href="#">{{ recipe.title }}</a>
+            <a href="{% url 'authors:dashboard_recipe_edit' recipe.id %}">{{ recipe.title }}</a>
           </li>
         {% empty %}
           <li>
@@ -23,4 +25,5 @@
   </div>
 
   {% include 'global/partials/messages.html' %}
+
   {% endblock content %}
