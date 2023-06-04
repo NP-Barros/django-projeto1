@@ -20,7 +20,7 @@ CSS <img align="center" alt="CSS" height="30" width="40" src="https://raw.github
 JavaScript <img align="center" alt="Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
 Git <img align="center" alt="git" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg">
 GitHub <img align="center" alt="github" height="35" width="35" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg" />**
-          
+<div>          
 
 ## 📋 Funcionalidades
 1. Inserir usuário :raising_hand_woman:
