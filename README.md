@@ -55,40 +55,6 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias:
 - Linguagem de Programação: Python 3.11
 - Framework: Django 4.1.5
 - Banco de Dados: MySQL (É utilizada a ferramenta do Django para gerenciar o banco de dados)
- 
-## Banco de Dados
-
-O projeto utiliza o Django, um framework web em Python, que oferece um poderoso conjunto de ferramentas para o gerenciamento de banco de dados. O banco de dados utilizado é o MySQL.
-
-O Django fornece uma camada de abstração de banco de dados, permitindo que você defina seus modelos de dados usando classes Python. O Django cuida da criação e manipulação do banco de dados, facilitando o desenvolvimento de aplicativos com persistência de dados.
-
-Para configurar a conexão com o banco de dados MySQL, você precisa atualizar as configurações no arquivo `settings.py`. Localize a seção `DATABASES` e modifique as configurações de acordo com as suas necessidades. Por exemplo:
-
-```python
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'nome_do_banco_de_dados',
-        'USER': 'usuario_do_banco',
-        'PASSWORD': 'senha_do_banco',
-        'HOST': 'localhost',
-        'PORT': '3306',
-    }
-}
- ```
-Certifique-se de ter o MySQL instalado em seu sistema e as devidas credenciais para acesso ao banco de dados.
-
-Depois de configurar corretamente as informações de conexão, o Django cuidará da criação e atualização do banco de dados automaticamente ao executar as migrações.
-
-Para executar as migrações e criar as tabelas do banco de dados, utilize o seguinte comando no terminal:
-```
- python manage.py migrate
- ```
-O Django também oferece um poderoso ORM (Object-Relational Mapping), que permite que você manipule o banco de dados usando objetos Python em vez de escrever consultas SQL manualmente. Isso facilita o desenvolvimento e a manutenção do código relacionado ao banco de dados.
-
-Para obter mais informações sobre o uso do Django com bancos de dados, consulte a documentação oficial do Django.
-
-  
 
 ## Instalação e Execução
 Para executar o projeto em seu ambiente local, siga as instruções abaixo:
@@ -141,6 +107,40 @@ python manage.py runserver
 
 Certifique-se de atender a esses requisitos antes de tentar executar o projeto.
 
+  
+## Banco de Dados
+
+O projeto utiliza o Django, um framework web em Python, que oferece um poderoso conjunto de ferramentas para o gerenciamento de banco de dados. O banco de dados utilizado é o MySQL.
+
+O Django fornece uma camada de abstração de banco de dados, permitindo que você defina seus modelos de dados usando classes Python. O Django cuida da criação e manipulação do banco de dados, facilitando o desenvolvimento de aplicativos com persistência de dados.
+
+Para configurar a conexão com o banco de dados MySQL, você precisa atualizar as configurações no arquivo `settings.py`. Localize a seção `DATABASES` e modifique as configurações de acordo com as suas necessidades. Por exemplo:
+
+```python
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'nome_do_banco_de_dados',
+        'USER': 'usuario_do_banco',
+        'PASSWORD': 'senha_do_banco',
+        'HOST': 'localhost',
+        'PORT': '3306',
+    }
+}
+ ```
+Certifique-se de ter o MySQL instalado em seu sistema e as devidas credenciais para acesso ao banco de dados.
+
+Depois de configurar corretamente as informações de conexão, o Django cuidará da criação e atualização do banco de dados automaticamente ao executar as migrações.
+
+Para executar as migrações e criar as tabelas do banco de dados, utilize o seguinte comando no terminal:
+```
+ python manage.py migrate
+ ```
+O Django também oferece um poderoso ORM (Object-Relational Mapping), que permite que você manipule o banco de dados usando objetos Python em vez de escrever consultas SQL manualmente. Isso facilita o desenvolvimento e a manutenção do código relacionado ao banco de dados.
+
+Para obter mais informações sobre o uso do Django com bancos de dados, consulte a documentação oficial do Django.
+
+  
 ## Contribuição
 
 Se você deseja contribuir para o projeto, siga as etapas abaixo:
