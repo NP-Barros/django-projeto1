@@ -47,6 +47,157 @@ Plataforma voltada para idosos que desejam compartilhar suas receitas e para aqu
 7. Para comentar ou avaliar uma receita, clique na receita desejada e utilize os campos de comentário e avaliação.:speech_balloon: :thumbsup:
 8. Você pode acessar o seu dashboard para ver suas receitas publicadas e favoritas. :heart:
 
-# :fire::meat_on_bone: Divirta-se explorando as deliciosas receitas caseiras! :stew:
 
+## Ambiente de Desenvolvimento
  
+O projeto foi desenvolvido utilizando as seguintes tecnologias:
+
+- Linguagem de Programação: Python 3.11
+- Framework: Django 4.1.5
+- Banco de Dados: MySQL (É utilizada a ferramenta do Django para gerenciar o banco de dados)
+ 
+## Banco de Dados
+
+O projeto utiliza o Django, um framework web em Python, que oferece um poderoso conjunto de ferramentas para o gerenciamento de banco de dados. O banco de dados utilizado é o MySQL.
+
+O Django fornece uma camada de abstração de banco de dados, permitindo que você defina seus modelos de dados usando classes Python. O Django cuida da criação e manipulação do banco de dados, facilitando o desenvolvimento de aplicativos com persistência de dados.
+
+Para configurar a conexão com o banco de dados MySQL, você precisa atualizar as configurações no arquivo `settings.py`. Localize a seção `DATABASES` e modifique as configurações de acordo com as suas necessidades. Por exemplo:
+
+```python
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'nome_do_banco_de_dados',
+        'USER': 'usuario_do_banco',
+        'PASSWORD': 'senha_do_banco',
+        'HOST': 'localhost',
+        'PORT': '3306',
+    }
+}
+ ```
+Certifique-se de ter o MySQL instalado em seu sistema e as devidas credenciais para acesso ao banco de dados.
+
+Depois de configurar corretamente as informações de conexão, o Django cuidará da criação e atualização do banco de dados automaticamente ao executar as migrações.
+
+Para executar as migrações e criar as tabelas do banco de dados, utilize o seguinte comando no terminal:
+```
+ python manage.py migrate
+ ```
+O Django também oferece um poderoso ORM (Object-Relational Mapping), que permite que você manipule o banco de dados usando objetos Python em vez de escrever consultas SQL manualmente. Isso facilita o desenvolvimento e a manutenção do código relacionado ao banco de dados.
+
+Para obter mais informações sobre o uso do Django com bancos de dados, consulte a documentação oficial do Django.
+
+  
+
+## Instalação e Execução
+Para executar o projeto em seu ambiente local, siga as instruções abaixo:
+
+1. Certifique-se de ter o Python 3.11 instalado. Você pode fazer o download da versão mais recente do Python em [link para o site oficial do Python].
+
+2. Clone este repositório para o seu computador ou faça o download do código-fonte.
+
+3. No terminal, navegue até o diretório raiz do projeto.
+
+4. Crie um ambiente virtual executando o comando:
+ ```
+python -m venv myenv
+```
+
+5. Ative o ambiente virtual:
+- No Linux/macOS:
+```
+source myenv/bin/activate
+```
+- No Windows:
+```
+myenv\Scripts\activate
+```
+
+6. Instale as dependências do projeto executando o comando:
+```
+pip install -r requirements.txt
+```
+
+7. Execute as migrações do banco de dados:
+```
+python manage.py migrate
+```
+
+8. Inicie o servidor de desenvolvimento:
+```
+python manage.py runserver
+```
+
+9. Acesse o projeto em seu navegador através do link [http://localhost:8000](http://localhost:8000).
+
+## Requisitos de Sistema
+ Para executar o projeto, é necessário ter os seguintes requisitos de sistema:
+
+- Python 3.11
+- Django 4.1.5
+- MySQL (versão específica, se necessário)
+- [Outros requisitos específicos do projeto, como versões de bibliotecas adicionais]
+
+Certifique-se de atender a esses requisitos antes de tentar executar o projeto.
+
+## Contribuição
+
+Se você deseja contribuir para o projeto, siga as etapas abaixo:
+
+1. Faça um fork deste repositório.
+
+2. Crie um branch para a sua nova feature:
+```
+git checkout -b minha-nova-feature
+```
+
+3. Faça as alterações desejadas e faça commit delas:
+```
+git commit -m "Descrição das alterações"
+```
+
+4. Envie as alterações para o seu repositório fork:
+```
+git push origin minha-nova-feature
+```
+
+5. Abra um pull request neste repositório, descrevendo suas alterações.
+
+Agradecemos antecipadamente por suas contribuições!
+
+## Práticas de Código Limpo
+
+Durante o desenvolvimento deste projeto, foram aplicadas práticas de código limpo, incluindo:
+
+- Nomenclatura significativa de variáveis, funções e classes.
+- Organização e estruturação adequadas do código.
+- Comentários relevantes para auxiliar na compreensão do código.
+- Utilização de padrões e convenções da linguagem Python.
+
+## Testes Automatizados
+
+Foram implementados testes automatizados baseados em TDD (Test Driven Development) utilizando as seguintes bibliotecas:
+
+- Pytest
+- Selenium
+
+Os testes podem ser encontrados no diretório de cada App dentro da aplicação.
+
+Para executar os testes, utilize o seguinte comando:
+```
+python manage.py test
+```
+
+## Padrão de Projeto de Software
+
+O padrão de projeto de software utilizado neste projeto é o Model-View-Controller (MVC).
+
+O MVC é um padrão de arquitetura de software que separa a lógica de negócios (Model), a interface do usuário (View) e o fluxo de controle (Controller).
+
+No projeto, a camada Model é responsável pela interação com o banco de dados MySQL, definindo os modelos e suas relações. A camada View trata da apresentação dos dados ao usuário, utilizando os templates do Django para renderização. E a camada Controller gerencia as requisições do usuário, processando-as e atualizando o Model ou a View conforme necessário.
+
+O uso do padrão MVC proporciona uma separação clara de responsabilidades e facilita a manutenção e evolução do código, permitindo que as partes do sistema sejam modificadas independentemente umas das outras.
+ 
+ 
+ # :fire::meat_on_bone: Divirta-se explorando as deliciosas receitas caseiras! :stew:
